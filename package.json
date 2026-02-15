@@ -1,0 +1,12 @@
+{
+  "name": "repo-metadata-editor",
+  "version": "1.0.0",
+  "description": "Edit repository metadata in bulk",
+  "main": "src/index.js",
+  "bin": { "gh-meta": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "metadata", "bulk"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2" }
+}
